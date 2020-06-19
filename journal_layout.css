@@ -1,0 +1,65 @@
+#main_body {
+    border: 10px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+body{
+    background-image: url("images/lab3.jpg");
+}
+.header{
+    padding: 3px;
+    text-align: right;
+    background-color:  #A8F0F0;
+    margin-bottom: 10px;
+}
+.header:hover {
+    background-color:  yellow;
+}
+.inner_header{
+    font-size: 10pt;
+}
+.date{
+    border-bottom: 2px dashed  #009097;
+}
+.friend{
+    width: 18%;
+    border: 5px solid #009097;
+    padding: 5px;
+    background-color:  #A8F0F0;
+    float:left;
+    clear:right;
+
+}
+.friend:hover {
+    background-color:  yellow;
+}
+.body1, .body2{
+
+    border: 4px solid  #C2E9E9;
+    background-color: #E8FBFB;
+    padding: 5px;
+    overflow: hidden;
+    margin: 5px;
+    margin-top: 0;
+
+}
+.body1:hover {
+    background-color:  yellow;
+}
+.body2:hover {
+    background-color:  yellow;
+}
+.main_content{
+    overflow: hidden;
+    width: auto;
+    padding: 10px;
+    padding-top: 0px;
+}
+#image1 {
+    float: right;
+}
+
+#image2{
+    float: right;
+}
